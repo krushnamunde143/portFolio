@@ -4236,3 +4236,430 @@ body{
     }
 
 }
+/* =========================================================
+   Education Page
+========================================================= */
+
+
+/* =========================
+   EDUCATION PAGE
+========================= */
+
+#educationPage{
+
+    width: 100%;
+
+    min-height: 900px;
+
+    background-color: #0B1120;
+
+    padding-top: 140px;
+
+    padding-bottom: 80px;
+}
+
+
+/* =========================
+   EDUCATION CONTAINER
+========================= */
+
+#educationContainer{
+
+    width: 85%;
+
+    max-width: 1100px;
+
+    margin: auto;
+}
+
+
+/* =========================
+   EDUCATION HEADING
+========================= */
+
+#educationHeading{
+
+    text-align: center;
+
+    margin-bottom: 55px;
+}
+
+
+#educationLabel{
+
+    color: #22D3EE;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 12px;
+}
+
+
+#educationHeading h1{
+
+    color: #F8FAFC;
+
+    font-size: 48px;
+
+    font-weight: 700;
+
+    margin-bottom: 18px;
+}
+
+
+#educationHeading h1 span{
+
+    color: #22D3EE;
+}
+
+
+#educationDescription{
+
+    max-width: 700px;
+
+    margin: auto;
+
+    color: #94A3B8;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+}
+
+
+
+/* =========================
+   EDUCATION CARDS
+========================= */
+
+#educationCards{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 22px;
+}
+
+
+/* =========================
+   EDUCATION CARD
+========================= */
+
+.educationCard{
+
+    display: grid;
+
+    grid-template-columns: 150px 1fr;
+
+    background-color: #111827;
+
+    border: 1px solid #1E293B;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.educationCard:hover{
+
+    transform: translateY(-5px);
+
+    border-color: #22D3EE;
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.25),
+        0 0 20px rgba(34, 211, 238, 0.08);
+}
+
+
+
+/* =========================
+   EDUCATION YEAR
+========================= */
+
+.educationYear{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #172033;
+
+    border-right: 1px solid #263449;
+
+    color: #22D3EE;
+
+    font-size: 24px;
+
+    font-weight: 700;
+}
+
+
+
+/* =========================
+   EDUCATION CONTENT
+========================= */
+
+.educationContent{
+
+    padding: 28px 30px;
+}
+
+
+.educationLevel{
+
+    color: #22D3EE;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 9px;
+}
+
+
+.educationContent h2{
+
+    color: #F8FAFC;
+
+    font-size: 25px;
+
+    font-weight: 700;
+
+    margin-bottom: 9px;
+}
+
+
+.educationContent h3{
+
+    color: #CBD5E1;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    line-height: 1.5;
+
+    max-width: 700px;
+
+    margin-bottom: 5px;
+}
+
+
+.educationLocation{
+
+    color: #64748B;
+
+    font-size: 14px;
+
+    margin-bottom: 20px;
+}
+
+
+
+/* =========================
+   EDUCATION RESULT
+========================= */
+
+.educationResult{
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 8px 14px;
+
+    background-color: #0F172A;
+
+    border: 1px solid #263449;
+
+    border-radius: 20px;
+}
+
+
+.resultLabel{
+
+    color: #94A3B8;
+
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+
+.resultValue{
+
+    color: #22D3EE;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+
+
+/* =========================
+   EDUCATION SUMMARY
+========================= */
+
+#educationSummary{
+
+    margin-top: 45px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: #111827;
+
+    border: 1px solid #1E293B;
+
+    border-radius: 14px;
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+#educationSummary:hover{
+
+    border-color: #22D3EE;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+.summaryLabel{
+
+    color: #22D3EE;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+}
+
+
+#educationSummary h2{
+
+    color: #F8FAFC;
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+}
+
+
+#educationSummary p{
+
+    color: #94A3B8;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    max-width: 700px;
+
+    margin: auto;
+}
+
+
+
+/* =========================
+   EDUCATION RESPONSIVE
+========================= */
+
+@media(max-width: 700px){
+
+    #educationPage{
+
+        padding-top: 175px;
+
+        padding-bottom: 60px;
+    }
+
+
+    #educationContainer{
+
+        width: 90%;
+    }
+
+
+    #educationHeading h1{
+
+        font-size: 38px;
+    }
+
+
+    #educationDescription{
+
+        font-size: 15px;
+    }
+
+
+    .educationCard{
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .educationYear{
+
+        justify-content: flex-start;
+
+        padding: 15px 25px;
+
+        border-right: none;
+
+        border-bottom: 1px solid #263449;
+
+        font-size: 20px;
+    }
+
+
+    .educationContent{
+
+        padding: 25px;
+    }
+
+
+    .educationContent h2{
+
+        font-size: 22px;
+    }
+
+
+    .educationContent h3{
+
+        font-size: 14px;
+    }
+
+
+    #educationSummary{
+
+        padding: 25px 20px;
+    }
+
+}
